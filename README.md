@@ -95,6 +95,8 @@ Object
 	- uid: String
 	- wallet_name: String
 	- image: String
+	- chainType: String 
+	- active_public_key: String
 - message: String
 
 **Example**
@@ -107,6 +109,8 @@ Object
 	            "uid": "46eec3f33e3d86a40c914a591922f420",
 	            "wallet_name": "haha",
 	            "image": "",
+		    "chainType": "eosType",
+		    "active_public_key":""
 	        } 
 	    "message": "success"
 	}
