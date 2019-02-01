@@ -95,7 +95,7 @@ Object
 	- uid: String
 	- wallet_name: String
 	- image: String
-	- chainType: String 
+	- chainType: String   //chainType 返回 "eosType" 或者 "bosType"
 	- active_public_key: String
 - message: String
 
